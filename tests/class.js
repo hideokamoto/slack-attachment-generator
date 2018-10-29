@@ -2,7 +2,7 @@ const assert = require('power-assert')
 // target
 const SlackAttachments = require('../class/index')
 
-describe('Entities/SlackAttachments', () => {
+describe('SlackAttachments', () => {
   describe('set attachments', () => {
     const Entity = new SlackAttachments()
     it('should return empty array when nothing to do', () => {
